@@ -21,8 +21,6 @@ jobs:
 
       - name: Upload arquivos estáticos
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: .  #
 
   deploy:
     needs: build
