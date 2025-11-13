@@ -1,6 +1,6 @@
-name: Deploy static site to GitHub Pages
+name: Deploy para GitHub Pages Prova
 
-# dispara em qualquer push (ajuste branch se quiser limitar)
+# ação em qualquer push 
 on:
   push:
     branches: ["main"]   
